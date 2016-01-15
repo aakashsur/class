@@ -1,0 +1,31 @@
+@prefix reactome: <http://gennari.washington.edu/toymed#> .
+
+toyMed:Pt234	a	toyMed:Patient;
+		toyMed:PtID	"234";
+		toyMed:PtName	"John";
+	    toyMed:PtHasMD   toyMed:Md110;
+		toyMed:PtAge	"53" .	
+
+toyMed:Pt247	a	toyMed:Patient;
+	toyMed:PtID		"247";
+	toyMed:PtName	"Fred";
+	toyMed:PtAge		"76";
+	toyMed:PtHasMD	toyMed:Md110;
+	toyMed:PtHasMD	toyMed:Md152 .
+
+toyMed:Md110	a	toyMed:Physician;
+	toyMed:MdID		"110";
+	toyMed:Specialty	"Family Med";
+	toyMed:MdName	"Mary" .
+
+toyMed:Md147	a	toyMed:Physician;
+	toyMed:MdID		"147";
+	toyMed:Specialty	"Internal Med";
+	toyMed:MdName	"Beth" .
+
+toyMed:Md152	a	toyMed:Physician;
+	toyMed:MdID		"152";
+	toyMed:Specialty	"Cardiology";
+	toyMed:MdName	"John" .
+
+

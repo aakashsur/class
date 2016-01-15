@@ -1,4 +1,4 @@
-@prefix reactome: <http://gennari.washington.edu/toymed#> .
+@prefix toyMed: <http://gennari.washington.edu/toymed#> .
 
 toyMed:Pt234	a	toyMed:Patient;
 		toyMed:PtID	"234";

@@ -43,13 +43,13 @@ glycolysis:PGI a glycolysis:Reaction ;
 	glycolysis:usesEnzyme glycolysis:phosophoglucoseIsomerase .
 
 glycolysis:fructose-6-phosphate a glycolysis:Molecule ;
-	glycolysis:name "fructose-6-phosphate"
+	glycolysis:name "fructose-6-phosphate" ;
 	glycolysis:chemicalFormula "C6H13O9P" ;
 	glycolysis:chemicalStructure "https://upload.wikimedia.org/wikipedia/commons/9/9f/Beta-D-fructose-6-phosphate_wpmp.png" ;
 	glycolysis:IUPAC "[(2R,3R,4S)-3,4,5-trihydroxy-5-(hydroxymethyl)oxolan-2-yl] methoxyphosphonic acid" .
 
 glycolysis:phosophoglucoseIsomerase a glycolysis:Enzyme ;
-	glycolysis:name "Phosophoglucose Isomerase"
-	glycolysis:ECNumber "2.7.1.1" ;
+	glycolysis:name "Phosophoglucose Isomerase" ;
+	glycolysis:ECNumber "2.7.1.1" .
 
 

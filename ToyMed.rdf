@@ -1,6 +1,6 @@
-@prefix toyMed: <http://gennari.washington.edu/toymed#> .
+@prefix toyMed: <https://github.com/aakashsur/class#> .
 
-toyMed:Pt234	a	toyMed:Patient;
+toyMed:Pt-234	a	toyMed:Patient;
 		toyMed:PtID	"234";
 		toyMed:PtName	"John";
 	    toyMed:PtHasMD   toyMed:Md110;

@@ -56,10 +56,10 @@ glycolysis:phosophoglucoseIsomerase a glycolysis:Enzyme ;
 #Phosphofructokinase reaction
 glycolysis:PFK a glycolysis:Reaction ;
 	glycolysis:left glycolysis:fructose-6-phosphate ;
-	glycolysis:right glycolysis:fructose-1,6-bisphosphate ;
+	glycolysis:right glycolysis:fructose-1-6-bisphosphate ;
 	glycolysis:usesEnzyme glycolysis:phosphofructokinase .
 
-glycolysis:fructose-1,6-bisphosphate a glycolysis:Molecule ;
+glycolysis:fructose-1-6-bisphosphate a glycolysis:Molecule ;
 	glycolysis:name "fructose-1,6-bisphosphate" ;
 	glycolysis:chemicalFormula "C6H14O12P2" ;
 	glycolysis:chemicalStructure "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Beta-D-Fructose-1%2C6-bisphosphat2.svg/150px-Beta-D-Fructose-1%2C6-bisphosphat2.svg.png" ;

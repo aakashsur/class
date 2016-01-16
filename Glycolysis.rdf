@@ -51,5 +51,5 @@ glycolysis:fructose-6-phosphate a glycolysis:Molecule ;
 glycolysis:phosophoglucoseIsomerase a glycolysis:Enzyme ;
 	glycolysis:name "Phosophoglucose Isomerase" ;
 	glycolysis:ECNumber "2.7.1.1" .
-glycolysis:PGI glycolysis:isA glycolysis:Reaction ;
+
 

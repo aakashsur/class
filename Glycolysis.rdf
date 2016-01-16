@@ -50,6 +50,21 @@ glycolysis:fructose-6-phosphate a glycolysis:Molecule ;
 
 glycolysis:phosophoglucoseIsomerase a glycolysis:Enzyme ;
 	glycolysis:name "Phosophoglucose Isomerase" ;
-	glycolysis:ECNumber "2.7.1.1" .
+	glycolysis:ECNumber "5.3.1.9" .
 
 
+#Phosphofructokinase reaction
+glycolysis:PFK a glycolysis:Reaction ;
+	glycolysis:left glycolysis:fructose-6-phosphate ;
+	glycolysis:right glycolysis:fructose-1,6-bisphosphate ;
+	glycolysis:usesEnzyme glycolysis:Phosphofructokinase .
+
+glycolysis:fructose-1,6-bisphosphate a glycolysis:Molecule ;
+	glycolysis:name "fructose-1,6-bisphosphate" ;
+	glycolysis:chemicalFormula "C6H14O12P2" ;
+	glycolysis:chemicalStructure "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Beta-D-Fructose-1%2C6-bisphosphat2.svg/150px-Beta-D-Fructose-1%2C6-bisphosphat2.svg.png" ;
+	glycolysis:IUPAC "[(2R,3S,4S,5R)-2,3,4-trihydroxy-5-(phosphonooxymethyl)oxolan-2-yl]methyl dihydrogen phosphate" .
+
+glycolysis:phosophoglucoseIsomerase a glycolysis:Enzyme ;
+	glycolysis:name "Phosphofructokinase" ;
+	glycolysis:ECNumber "2.7.1.11" .

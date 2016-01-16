@@ -1,23 +1,23 @@
-@prefix glycolysis: <https://github.com/aakashsur/class#> .
+@prefix glycolysis:<https://github.com/aakashsur/class#> .
 
 glycolysis:HK a glycolysis:Reaction ;
 	glycolysis:left glycolysis:glucose ;
 	glycolysis:left glycolysis:adenosine-triphosphate ;
 	glycolysis:right glycolysis:glucose-6-phosphate ;
 	glycolysis:right glycolysis:adenosine-diphosphate ;
-	glycolysis:enzyme glycolysis: hexokinase.
+	glycolysis:enzyme glycolysis:hexokinase .
 
 glycolysis:glucose a glycolysis:Molecule ;
-	glycolysis:chemicalFormula glycolysis: "C6H12O6" ; 
-	glycolysis:chemicalStructure glycolysis: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Alpha-D-Glucopyranose.svg/120px-Alpha-D-Glucopyranose.svg.png" ; 
-	glycolysis:IUPAC glycolysis:"(2R,3S,4R,5R)-2,3,4,5,6-Pentahydroxyhexanal" .
+	glycolysis:chemicalFormula "C6H12O6" ; 
+	glycolysis:chemicalStructure "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Alpha-D-Glucopyranose.svg/120px-Alpha-D-Glucopyranose.svg.png" ; 
+	glycolysis:IUPAC "(2R,3S,4R,5R)-2,3,4,5,6-Pentahydroxyhexanal" .
 
 glycolysis:adenosine-triphosphate a glycolysis:Molecule ;
-	glycolysis:chemicalFormula glycolysis: "C10H16N5O13P3" ;
-	glycolysis:chemicalStructure glycolysis: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Adenosintriphosphat_protoniert.svg/260px-Adenosintriphosphat_protoniert.svg.png" ;
-	glycolysis:IUPAC glycolysis:"[(2''R'',3''S'',4''R'',5''R'')-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl(hydroxyphosphonooxyphosphoryl)hydrogen phosphate" .
+	glycolysis:chemicalFormula "C10H16N5O13P3" ;
+	glycolysis:chemicalStructure "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Adenosintriphosphat_protoniert.svg/260px-Adenosintriphosphat_protoniert.svg.png" ;
+	glycolysis:IUPAC "[(2''R'',3''S'',4''R'',5''R'')-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl(hydroxyphosphonooxyphosphoryl)hydrogen phosphate" .
 
 glycolysis:glucose-6-phosphate a glycolysis:Molecule ;
-	glycolysis:chemicalFormula glycolysis: "C6H13O9P" ;
-	glycolysis:chemicalStructure glycolysis: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Glucose-6-Phosphate.svg/100px-Glucose-6-Phosphate.svg.png" ;
-	glycolysis:IUPAC glycolysis: "(3,4,5,6-tetrahydroxyoxan-2-yl)methyl dihydrogen phosphate" .
+	glycolysis:chemicalFormula "C6H13O9P" ;
+	glycolysis:chemicalStructure "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Glucose-6-Phosphate.svg/100px-Glucose-6-Phosphate.svg.png" ;
+	glycolysis:IUPAC "(3,4,5,6-tetrahydroxyoxan-2-yl)methyl dihydrogen phosphate" .

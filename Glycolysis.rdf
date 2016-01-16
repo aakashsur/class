@@ -34,7 +34,7 @@ glycolysis:adenosine-diphosphate a glycolysis:Molecule ;
 
 glycolysis:hexokinase a glycolysis:Enzyme ;
 	glycolysis:name "hexokinase" ;
-	glycolysis:ECNumber "2.7.1.1" ;
+	glycolysis:ECNumber "2.7.1.1" .
 
 #Phosophoglucose Isomerase reaction
 glycolysis:PGI a glycolysis:Reaction ;
@@ -51,5 +51,5 @@ glycolysis:fructose-6-phosphate a glycolysis:Molecule ;
 glycolysis:phosophoglucoseIsomerase a glycolysis:Enzyme ;
 	glycolysis:name "Phosophoglucose Isomerase" ;
 	glycolysis:ECNumber "2.7.1.1" .
-
+glycolysis:PGI glycolysis:isA glycolysis:Reaction ;
 
